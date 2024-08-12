@@ -8,9 +8,6 @@ logger = get_logger(__name__)
 
 app = FastAPI()
 
-# Create all tables
-Base.metadata.create_all(bind=engine)
-
 # Include routers
 app.include_router(users.router)
 app.include_router(movies.router)
