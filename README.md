@@ -44,7 +44,7 @@ This is a FastAPI project for listing movies, adding comments, and rating movies
 
 ## Deployment
 
-1. Install Gunicorn:
+<!-- 1. Install Gunicorn:
     ```sh
     pip install gunicorn
     ```
@@ -52,7 +52,7 @@ This is a FastAPI project for listing movies, adding comments, and rating movies
 2. Create a `Procfile`:
     ```plaintext
     web: gunicorn -w 4 -k uvicorn.workers.UvicornWorker app.main:app
-    ```
+    ``` -->
 
 3. Deploy to your chosen cloud provider.
 
